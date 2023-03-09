@@ -1,6 +1,6 @@
 (function() {
     var links = document.getElementsByClassName('ForceHttp');
     for (link of links) {
-        link.href = 'http://' + window.location.host + link.getAttribute('href');
+        link.href = 'https://' + window.location.host + link.getAttribute('href');
     }
 })();
